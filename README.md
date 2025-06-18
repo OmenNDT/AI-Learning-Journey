@@ -1,51 +1,45 @@
 # AI-Learning-Journey
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[vietnamese]{babel}
-\usepackage{geometry}
-\geometry{a4paper, margin=1in}
 
-\title{Hành trình học Trí tuệ Nhân tạo - Văn bằng 2 tại Trường Đại học Công nghệ Thông tin, Đại học Quốc gia TP.HCM}
-\author{}
-\date{}
+Hành trình học trí tuệ nhân tạo. Văn bằng 2 tại trường Đại Học Công Nghệ Thông Tin, Đại Học Quốc Gia TP HCM
 
-\begin{document}
+Mục đích của repo này là lưu lại quá trình học văn bằng 2, ngành trí tuệ nhân tạo.
 
-\maketitle
+Chương trình đào tạo dự kiến bao gồm 14 môn học, tương đương 79 tín chỉ.
 
-\section*{Mục đích}
-Mục đích của kho lưu trữ (repo) này là ghi lại toàn bộ quá trình học tập văn bằng 2, ngành Trí tuệ Nhân tạo.
+Danh sách các môn học: 
+Toán cho Khoa học máy tính
 
----
+Nhập môn lập trình
 
-\section*{Chương trình Đào tạo}
-Chương trình đào tạo dự kiến bao gồm 14 môn học, tương đương 79 tín chỉ:
+Lập trình hướng đối tượng
 
-\begin{itemize}
-    \item Toán cho Khoa học máy tính
-    \item Nhập môn lập trình
-    \item Lập trình hướng đối tượng
-    \item Nhập môn Công nghệ phần mềm
-    \item Lập trình Python cho Máy học
-    \item Cấu trúc dữ liệu và giải thuật
-    \item Phân tích và thiết kế thuật toán
-    \item Nhập môn mạng máy tính
-    \item Cơ sở dữ liệu
-    \item Trí tuệ Nhân tạo
-    \item Máy học
-    \item Tư duy Trí tuệ Nhân tạo
-    \item Nhập môn Thị giác máy tính
-    \item Giới thiệu ngành Trí tuệ Nhân tạo
-\end{itemize}
+Nhập môn Công nghệ phần mềm
 
----
+Lập trình Python cho Máy học
 
-\section*{Cấu trúc Kho lưu trữ (Repo)}
-Mỗi môn học sẽ được ghi nhận lại trong một thư mục (folder) riêng.
+Cấu trúc dữ liệu và giải thuật
 
----
+Phân tích và thiết kế thuật toán
 
-\section*{Ngày Bắt đầu}
-Ngày bắt đầu buổi học đầu tiên: Ngày 17/6/2025 với môn học \textbf{Cơ sở dữ liệu}.
+Nhập môn mạng máy tính
 
-\end{document}
+Cơ sở dữ liệu
+
+Trí tuệ nhân tạo
+
+Máy học
+
+Tư duy Trí tuệ nhân tạo
+
+Nhập môn Thị giác máy tính
+
+Giới thiệu ngành Trí tuệ nhân tạo
+
+
+Cấu trúc repo này.
+
+Mỗi môn học sẽ được ghi nhận lại trong một folder.
+
+
+
+Ngày bắt đầu buổi học đầu tiên: Ngày 17/6/2025 với môn học Cơ sở dữ liệu
