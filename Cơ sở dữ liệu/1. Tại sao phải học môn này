@@ -1,0 +1,20 @@
+Cơ sở dữ liệu là một môn học bắt buộc đối với hầu hết các chuyên ngành trong lĩnh vực Công nghệ thông tin 
+Nó là nền tảng cốt lõi cho cách dữ liệu được quản lý, lưu trữ và truy cập trong thế giới số ngày nay. 
+Dù bạn theo nhánh phát triển phần mềm, mạng máy tính, trí tuệ nhân tạo, hay bất kỳ lĩnh vực nào khác của CNTT, 
+khả năng làm việc hiệu quả với dữ liệu là không thể thiếu.
+
+1. Dữ liệu là "máu" của mọi hệ thống
+Trong thời đại kỹ thuật số, dữ liệu giống như "máu" của mọi tổ chức và ứng dụng. Từ các trang web thương mại điện tử, ứng dụng di động, 
+hệ thống quản lý doanh nghiệp, cho đến các nền tảng mạng xã hội, tất cả đều cần lưu trữ, truy xuất và xử lý một lượng lớn dữ liệu. 
+Môn Cơ sở dữ liệu trang bị cho bạn kiến thức để tổ chức dữ liệu một cách có hệ thống, đảm bảo chúng luôn sẵn sàng và chính xác.
+
+2. Quản lý dữ liệu hiệu quả và bảo mật
+Lưu trữ có cấu trúc: Cơ sở dữ liệu giúp tổ chức thông tin theo một cấu trúc rõ ràng (như bảng, tài liệu, hoặc đồ thị), giúp việc lưu trữ lượng dữ liệu khổng lồ trở nên khả thi và quản lý được.
+Toàn vẹn dữ liệu: Môn học này dạy về các ràng buộc (constraints) và quy tắc để đảm bảo tính nhất quán và chính xác của dữ liệu, ngăn ngừa các sai sót và sự không đồng bộ.
+Bảo mật: Bạn sẽ học cách bảo vệ dữ liệu nhạy cảm thông qua các cơ chế xác thực, phân quyền truy cập và tuân thủ các quy định về quyền riêng tư, điều cực kỳ quan trọng trong mọi ngành.
+
+3. Nền tảng cho các lĩnh vực chuyên sâu
+Phát triển phần mềm: Bất kỳ ứng dụng nào cũng cần lưu trữ thông tin người dùng, sản phẩm, giao dịch... Kiến thức về cơ sở dữ liệu giúp lập trình viên thiết kế các ứng dụng hiệu quả, có khả năng mở rộng.
+Trí tuệ nhân tạo (AI) & Học máy (Machine Learning): AI và ML phụ thuộc rất nhiều vào dữ liệu. Bạn cần biết cách thu thập, lưu trữ, tiền xử lý và truy vấn dữ liệu lớn để huấn luyện các mô hình AI. Nếu không có dữ liệu chất lượng, AI không thể hoạt động.
+Phân tích dữ liệu & Khoa học dữ liệu: Đây là xương sống của việc trích xuất thông tin có giá trị từ dữ liệu để đưa ra quyết định kinh doanh. Kỹ năng truy vấn và quản lý cơ sở dữ liệu là không thể thiếu cho các nhà phân tích dữ liệu.
+Hệ thống mạng & Bảo mật: Dù không trực tiếp quản lý dữ liệu người dùng cuối, các hệ thống mạng và bảo mật vẫn cần cơ sở dữ liệu để lưu trữ nhật ký hệ thống (logs), thông tin cấu hình, và dữ liệu về các mối đe dọa để phân tích và giám sát.
