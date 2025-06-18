@@ -1,26 +1,51 @@
 # AI-Learning-Journey
-Hành trình học trí tuệ nhân tạo. Văn bằng 2 tại trường Đại Học Công Nghệ Thông Tin, Đại Học Quốc Gia TP HCM
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
 
-Mục đích của repo này là lưu lại quá trình học văn bằng 2, ngành trí tuệ nhân tạo.
+\title{Hành trình học Trí tuệ Nhân tạo - Văn bằng 2 tại Trường Đại học Công nghệ Thông tin, Đại học Quốc gia TP.HCM}
+\author{}
+\date{}
 
-Chương trình đào tạo dự kiến bao gồm 14 môn học, tương đương 79 tín chỉ.
+\begin{document}
 
-Toán cho Khoa học máy tính
-Nhập môn lập trình
-Lập trình hướng đối tượng
-Nhập môn Công nghệ phần mềm
-Lập trình Python cho Máy học
-Cấu trúc dữ liệu và giải thuật
-Phân tích và thiết kế thuật toán
-Nhập môn mạng máy tính
-Cơ sở dữ liệu
-Trí tuệ nhân tạo
-Máy học
-Tư duy Trí tuệ nhân tạo
-Nhập môn Thị giác máy tính
-Giới thiệu ngành Trí tuệ nhân tạo
+\maketitle
 
-Cấu trúc repo này.
-Mỗi môn học sẽ được ghi nhận lại trong một folder.
+\section*{Mục đích}
+Mục đích của kho lưu trữ (repo) này là ghi lại toàn bộ quá trình học tập văn bằng 2, ngành Trí tuệ Nhân tạo.
 
-Ngày bắt đầu buổi học đầu tiên: Ngày 17/6/2025 với môn học Cơ sở dữ liệu
+---
+
+\section*{Chương trình Đào tạo}
+Chương trình đào tạo dự kiến bao gồm 14 môn học, tương đương 79 tín chỉ:
+
+\begin{itemize}
+    \item Toán cho Khoa học máy tính
+    \item Nhập môn lập trình
+    \item Lập trình hướng đối tượng
+    \item Nhập môn Công nghệ phần mềm
+    \item Lập trình Python cho Máy học
+    \item Cấu trúc dữ liệu và giải thuật
+    \item Phân tích và thiết kế thuật toán
+    \item Nhập môn mạng máy tính
+    \item Cơ sở dữ liệu
+    \item Trí tuệ Nhân tạo
+    \item Máy học
+    \item Tư duy Trí tuệ Nhân tạo
+    \item Nhập môn Thị giác máy tính
+    \item Giới thiệu ngành Trí tuệ Nhân tạo
+\end{itemize}
+
+---
+
+\section*{Cấu trúc Kho lưu trữ (Repo)}
+Mỗi môn học sẽ được ghi nhận lại trong một thư mục (folder) riêng.
+
+---
+
+\section*{Ngày Bắt đầu}
+Ngày bắt đầu buổi học đầu tiên: Ngày 17/6/2025 với môn học \textbf{Cơ sở dữ liệu}.
+
+\end{document}
