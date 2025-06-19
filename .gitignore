@@ -195,3 +195,5 @@ cython_debug/
 
 # Ignore SQL files
 *.sql
+# Ignore course materials folder
+/Tai_lieu_mon_hoc/
