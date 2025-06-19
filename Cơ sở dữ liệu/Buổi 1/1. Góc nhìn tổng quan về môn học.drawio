@@ -1,90 +1,273 @@
 <mxfile host="65bd71144e">
     <diagram id="dVG4HIUA0G5rE3eHD4f1" name="Page-1">
-        <mxGraphModel dx="1239" dy="916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="1239" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="Dữ liệu (Data)" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" parent="1" vertex="1">
-                    <mxGeometry x="389" y="84" width="48.6" height="60" as="geometry"/>
+                    <mxGeometry x="200" y="105" width="48.6" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Các thành phần chính của một hệ thống Cơ sở dữ liệu" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-                    <mxGeometry x="60" y="30" width="720" height="40" as="geometry"/>
+                <mxCell id="3" value="Các thành phần chính của một hệ thống Cơ sở dữ liệu" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="77" y="26" width="720" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Ngôn ngữ truy vấn&lt;div&gt;Structured Query Language&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_SQL.svg;" vertex="1" parent="1">
-                    <mxGeometry x="679" y="84" width="64" height="46" as="geometry"/>
+                <mxCell id="5" value="DBMS&amp;nbsp;Hệ quản trị Cơ sở dữ liệu" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Managed_Database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="194" y="300" width="68" height="64" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="DBMS&amp;nbsp;Hệ quản trị Cơ sở dữ liệu" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Managed_Database.svg;" vertex="1" parent="1">
-                    <mxGeometry x="383" y="311" width="68" height="64" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6">
+                <mxCell id="12" style="edgeStyle=none;html=1;" parent="1" source="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="417" y="706.3529411764707" as="targetPoint"/>
+                        <mxPoint x="228" y="730" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Require&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="12">
+                <mxCell id="15" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Require&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1" connectable="0">
                     <mxGeometry x="-0.1103" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="9">
+                <mxCell id="13" style="edgeStyle=none;html=1;" parent="1" source="6" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Require&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="13">
+                <mxCell id="16" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Require&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="13" vertex="1" connectable="0">
                     <mxGeometry x="-0.1572" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
-                    <mxGeometry x="392" y="789" width="50" height="48.5" as="geometry"/>
+                <mxCell id="6" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" parent="1" vertex="1">
+                    <mxGeometry x="203" y="851" width="50" height="48.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="5">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="7" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="271" y="742"/>
+                            <mxPoint x="271" y="332"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SQL&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                <mxCell id="21" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SQL&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="-0.0262" y="-2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" vertex="1" parent="1">
-                    <mxGeometry x="389" y="576" width="61" height="128" as="geometry"/>
+                <mxCell id="7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" parent="1" vertex="1">
+                    <mxGeometry x="194" y="686" width="61" height="111" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="5">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="8" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="354" y="666"/>
+                            <mxPoint x="354" y="332"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="19">
+                <mxCell id="20" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19" vertex="1" connectable="0">
                     <mxGeometry x="-0.0025" relative="1" as="geometry">
                         <mxPoint y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-                    <mxGeometry x="524" y="614" width="90" height="61" as="geometry"/>
+                <mxCell id="8" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="422" y="642" width="90" height="61" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="5">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="9" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="106" y="667"/>
+                            <mxPoint x="106" y="332"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SQL&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                <mxCell id="22" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SQL&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="17" vertex="1" connectable="0">
                     <mxGeometry x="0.0183" y="3" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-                    <mxGeometry x="216" y="614" width="99" height="64" as="geometry"/>
+                <mxCell id="49" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="-0.0556" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="8">
+                <mxCell id="9" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="43" y="693" width="99" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="Require" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="11">
+                <mxCell id="14" value="Require" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="11" vertex="1" connectable="0">
                     <mxGeometry x="-0.0367" y="2" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.61;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="2">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.937;entryY=0.474;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="285" y="315"/>
+                            <mxPoint x="285" y="133"/>
+                            <mxPoint x="246" y="133"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SQL&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23">
+                <mxCell id="24" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;SQL&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="23" vertex="1" connectable="0">
                     <mxGeometry x="-0.0076" y="3" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="SQL Server Management Studio (SSMS)" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/sql_server.svg;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="142" width="38.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.956;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="27" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="28">
+                    <mxGeometry x="0.0127" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;" edge="1" parent="1" source="30" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value=".sql file &amp;amp; SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="31">
+                    <mxGeometry x="0.0665" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="30" target="32">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="730" y="332"/>
+                            <mxPoint x="730" y="136"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Code DSL&amp;nbsp;&lt;div&gt;(edited/reviewed)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="33">
+                    <mxGeometry x="0.002" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="30" target="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="632" y="551"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Prompt/ERD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="38">
+                    <mxGeometry x="-0.129" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Developer" style="shape=mxgraph.cisco.people.pc_man;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="621" y="257.5" width="104" height="149" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="32" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="594" y="187" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="630" y="136"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value=".sql file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="35">
+                    <mxGeometry x="0.157" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="ERD Drawing tool" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.tools;pointerEvents=1" vertex="1" parent="1">
+                    <mxGeometry x="659" y="121" width="29.7" height="29.7" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="37" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="743" y="551"/>
+                            <mxPoint x="743" y="332"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Code DSL &amp;amp; SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40">
+                    <mxGeometry x="-0.0325" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="AI" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Azure_OpenAI.svg;" vertex="1" parent="1">
+                    <mxGeometry x="649" y="517" width="68" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.015;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42">
+                    <mxGeometry x="0.3312" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="535" y="355"/>
+                            <mxPoint x="535" y="642"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="0.3025" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.013;entryY=0.551;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="155" y="332"/>
+                            <mxPoint x="155" y="747"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="46">
+                    <mxGeometry x="-0.085" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=-0.039;entryY=0.21;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="158" y="135"/>
+                            <mxPoint x="158" y="313"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="47">
+                    <mxGeometry x="0.0604" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;" edge="1" parent="1" source="52">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="745" y="441" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="DSL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53">
+                    <mxGeometry x="-0.0857" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Table&lt;/span&gt;&lt;span style=&quot;&quot;&gt; Device {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; id &lt;/span&gt;&lt;span style=&quot;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;pk&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;increment&lt;/span&gt;&lt;span style=&quot;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; adb_code &lt;/span&gt;&lt;span style=&quot;&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;&quot;&gt;50&lt;/span&gt;&lt;span style=&quot;&quot;&gt;) [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;unique&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;not&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; created_at &lt;/span&gt;&lt;span style=&quot;&quot;&gt;datetime&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;Note&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;BlueStack device be management by ADB code&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Table&lt;/span&gt;&lt;span style=&quot;&quot;&gt; Flow {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; id &lt;/span&gt;&lt;span style=&quot;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;pk&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;increment&lt;/span&gt;&lt;span style=&quot;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; name &lt;/span&gt;&lt;span style=&quot;&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;&quot;&gt;) [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;not&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; device_id &lt;/span&gt;&lt;span style=&quot;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;ref&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &amp;gt; Device&lt;/span&gt;&lt;span style=&quot;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;&quot;&gt;id]&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;Note&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;4 flow for each device, not run at same time&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;Table&lt;/span&gt;&lt;span style=&quot;&quot;&gt; FlowRunLog {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; id &lt;/span&gt;&lt;span style=&quot;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;pk&lt;/span&gt;&lt;span style=&quot;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;increment&lt;/span&gt;&lt;span style=&quot;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; flow_id &lt;/span&gt;&lt;span style=&quot;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;ref&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &amp;gt; Flow&lt;/span&gt;&lt;span style=&quot;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;&quot;&gt;id]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; device_id &lt;/span&gt;&lt;span style=&quot;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;&quot;&gt; [&lt;/span&gt;&lt;span style=&quot;&quot;&gt;ref&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &amp;gt; Device&lt;/span&gt;&lt;span style=&quot;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;&quot;&gt;id]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; status &lt;/span&gt;&lt;span style=&quot;&quot;&gt;varchar&lt;/span&gt;&lt;span style=&quot;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;&quot;&gt;20&lt;/span&gt;&lt;span style=&quot;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;&quot;&gt;// &#39;success&#39; | &#39;failure&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; run_at &lt;/span&gt;&lt;span style=&quot;&quot;&gt;datetime&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;Note&lt;/span&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;&#39;Save history execute flow&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;fontColor=default;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="986" y="34" width="456" height="526" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="616.666666666667" y="191.33333333333348" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="CREATE TABLE [Device] (&#xa;  [id] int PRIMARY KEY IDENTITY(1, 1),&#xa;  [adb_code] varchar(50) UNIQUE NOT NULL,&#xa;  [created_at] datetime&#xa;)&#xa;GO&#xa;&#xa;&#xa;CREATE TABLE [Flow] (&#xa;  [id] int PRIMARY KEY IDENTITY(1, 1),&#xa;  [name] varchar(100) NOT NULL,&#xa;  [device_id] int&#xa;)&#xa;GO&#xa;&#xa;&#xa;CREATE TABLE [FlowRunLog] (&#xa;  [id] int PRIMARY KEY IDENTITY(1, 1),&#xa;  [flow_id] int,&#xa;  [device_id] int,&#xa;  [status] varchar(20),&#xa;  [run_at] datetime&#xa;)&#xa;GO&#xa;&#xa;&#xa;EXEC sp_addextendedproperty&#xa;@name = N&#39;Table_Description&#39;,&#xa;@value = &#39;BlueStack device be management by ADB code&#39;,&#xa;@level0type = N&#39;Schema&#39;, @level0name = &#39;dbo&#39;,&#xa;@level1type = N&#39;Table&#39;,  @level1name = &#39;Device&#39;;&#xa;GO&#xa;&#xa;&#xa;EXEC sp_addextendedproperty&#xa;@name = N&#39;Table_Description&#39;,&#xa;@value = &#39;4 flow for each device, not run at same time&#39;,&#xa;@level0type = N&#39;Schema&#39;, @level0name = &#39;dbo&#39;,&#xa;@level1type = N&#39;Table&#39;,  @level1name = &#39;Flow&#39;;&#xa;GO&#xa;&#xa;&#xa;EXEC sp_addextendedproperty&#xa;@name = N&#39;Table_Description&#39;,&#xa;@value = &#39;Save history execute flow&#39;,&#xa;@level0type = N&#39;Schema&#39;, @level0name = &#39;dbo&#39;,&#xa;@level1type = N&#39;Table&#39;,  @level1name = &#39;FlowRunLog&#39;;&#xa;GO&#xa;&#xa;&#xa;ALTER TABLE [Flow] ADD FOREIGN KEY ([device_id]) REFERENCES [Device] ([id])&#xa;GO&#xa;&#xa;&#xa;ALTER TABLE [FlowRunLog] ADD FOREIGN KEY ([flow_id]) REFERENCES [Flow] ([id])&#xa;GO&#xa;&#xa;&#xa;ALTER TABLE [FlowRunLog] ADD FOREIGN KEY ([device_id]) REFERENCES [Device] ([id])&#xa;GO" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry y="-945" width="525" height="916.67" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;" edge="1" parent="1" source="58">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="771.2857142857142" y="453.7619047619046" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60">
+                    <mxGeometry x="-0.0198" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="INSERT INTO Device (adb_code, created_at) VALUES&#xa;(&#39;5575&#39;, CURRENT_TIMESTAMP),&#xa;(&#39;5615&#39;, CURRENT_TIMESTAMP),&#xa;(&#39;5625&#39;, CURRENT_TIMESTAMP);&#xa;&#xa;&#xa;INSERT INTO Flow (name, device_id) VALUES&#xa;(&#39;5575_Facebook_Surf&#39;, 1),&#xa;(&#39;5575_Facebook_Post&#39;, 1),&#xa;(&#39;5575_Tiktok_Surf&#39;,     1),&#xa;(&#39;5575_Tiktok_Post&#39;,     1),&#xa;(&#39;5615_Facebook_Surf&#39;, 2),&#xa;(&#39;5615_Facebook_Post&#39;, 2),&#xa;(&#39;5615_Tiktok_Surf&#39;,     2),&#xa;(&#39;5615_Tiktok_Post&#39;,     2),&#xa;(&#39;5625_Facebook_Surf&#39;, 3),&#xa;(&#39;5625_Facebook_Post&#39;, 3),&#xa;(&#39;5625_Tiktok_Surf&#39;,     3),&#xa;(&#39;5625_Tiktok_Post&#39;,     3);" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="989" y="582" width="321" height="295" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
