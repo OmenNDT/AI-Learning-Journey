@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="dVG4HIUA0G5rE3eHD4f1" name="Page-1">
-        <mxGraphModel dx="2633" dy="3117" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#A8A8A8" math="0" shadow="0">
+        <mxGraphModel dx="1242" dy="2085" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#A8A8A8" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,7 +37,7 @@
                 <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="7" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="271" y="742"/>
+                            <mxPoint x="271" y="669"/>
                             <mxPoint x="271" y="332"/>
                         </Array>
                     </mxGeometry>
@@ -48,7 +48,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" parent="1" vertex="1">
-                    <mxGeometry x="194" y="686" width="61" height="111" as="geometry"/>
+                    <mxGeometry x="192" y="613" width="61" height="111" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="8" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -213,7 +213,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="155" y="332"/>
-                            <mxPoint x="155" y="747"/>
+                            <mxPoint x="155" y="674"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
